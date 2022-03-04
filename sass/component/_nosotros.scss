@@ -1,0 +1,115 @@
+/*--------------------------------------------------------
+ESTILOS PAGE NOSOTROS
+--------------------------------------------------------*/
+
+
+.container-fluid{
+    .historia{
+        background-color: rgb(232, 226, 255);
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        margin: 5% auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+        .imagen1{
+            margin: 0% 0% 2% 2%;
+            width: 50%;
+            box-shadow: $box-shadow;
+            @media screen and (max-width:768px) {
+                margin-top: 20px;
+                width: 80%;
+            }
+        }
+        .cajaTextosNosotros{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            @media screen and (max-width:768px){
+                flex-direction: column;
+            }
+            p{
+                font-size: calc(0.3em + 1vw);
+                color: $text-black;
+                text-align: start;
+                width: 60%;
+                margin:2%;
+                @media screen and (max-width:768px){
+                    width: 80%;
+                    font-size: 1em;
+                    text-align: start;
+                    margin-top: 30px;
+                }
+            }
+        } 
+    }
+    .fondoTexturado{
+        background-color: $background-contacto;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        width: 100%;
+        padding: 5% 0 5% 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        @media screen and (max-width:768px) {
+            padding-top: 2%;
+        }
+        .carruselPersonal{
+            width: 100%;
+            display: none;
+            @media screen and (max-width:768px) {
+                margin-top: 0px;
+                display: block;
+                margin: 0% auto;
+                width: 70%;
+            }
+            .nombreSector{
+                background-color: black;
+                margin: 0%;
+            }
+        }
+        .personal{
+            display: flex;
+            justify-content: space-between;
+            margin: 2%;
+            position: relative;
+            @media screen and (max-width:768px) {
+                display: none;
+            }
+            .puesto{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 0 1% 0 1%;
+                .fotoPersonal{
+                    width: 80%;
+                    margin-bottom: 10%;
+                    box-shadow: $box-shadow;
+                    @media screen and (max-width:768px) {
+                        width: 200px;
+                    }
+                }
+                p{
+                    font-size: calc(0.3em + 1vw);
+                    color: black;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    margin: 1%;
+                }
+            }
+        }
+    }     
+}                              
+                
+                  
+                      
+                     
+                       
+                           
+                           
+
+    
+       
+
+
+        
