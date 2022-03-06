@@ -13,14 +13,15 @@
                 }
             .descripcionCliente{
                 span{
-                display: flex;
-                justify-content: center;
-                font-size: calc(1.5em + 1vw);
-                color: black;
-                    @media screen and (max-width:768px){
-                        text-align: center;
-                        font-size: 2rem;
-                    }
+                    font-family: $font-raleway;
+                    display: flex;
+                    justify-content: center;
+                    font-size: calc(1.5em + 1vw);
+                    color: black;
+                        @media screen and (max-width:768px){
+                            text-align: center;
+                            font-size: 2rem;
+                        }
                 }
                 .clientes{
                     @extend%fondo-cliente;

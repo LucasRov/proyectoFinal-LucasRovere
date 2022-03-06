@@ -40,6 +40,7 @@ ESTILOS CONTACTO
             background-color: $gris-fondo;
             box-shadow: $box-shadow;
             h2{
+                font-family: $font-raleway;
                 text-align: center;
                 color: $text-black;
                 font-size: calc(1.5em + 1vw);
@@ -102,6 +103,7 @@ ESTILOS CONTACTO
                     width: 100%;
                 }
                 .tituloFormulario{
+                    font-family: "raleway";
                     color: $text-black;
                     margin-bottom: 3%;
                     font-weight: 500;
@@ -127,7 +129,7 @@ ESTILOS CONTACTO
                         }
                         .textoTipo{
                             margin: 3% 4% 3% 0%;
-                            font-size: calc(0.1em + 1vw);
+                            font-size: calc(0.4em + 1vw);
                             @media screen and (max-width:768px){
                                 font-size: 1em;
                             }
